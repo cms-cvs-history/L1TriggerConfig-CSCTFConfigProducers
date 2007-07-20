@@ -18,24 +18,24 @@ es_module = CSCTFConfigProducer {
 es_source L1MuCSCDTLutRcdSrc = EmptyESSource {
     string recordName = "L1MuCSCDTLutRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
 }
 
 es_source L1MuCSCPtLutRcdSrc = EmptyESSource {
     string recordName = "L1MuCSCPtLutRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
 }
 
 es_source L1MuCSCLocalPhiLutRcdSrc = EmptyESSource {
     string recordName = "L1MuCSCLocalPhiLutRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
 }
 
 es_source L1MuCSCGlobalLutsRcdSrc = EmptyESSource {
     string recordName = "L1MuCSCGlobalLutsRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
 }
 

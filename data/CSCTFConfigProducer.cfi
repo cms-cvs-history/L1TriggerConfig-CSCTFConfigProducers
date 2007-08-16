@@ -1,0 +1,17 @@
+es_module = CSCTFConfigProducer {
+     untracked string ptLUT_path = ""
+     untracked string dt1LUT_path = ""
+     untracked string dt2LUT_path = ""
+     untracked string localPhiLUT_path = ""
+     untracked string globalPhi1LUT_path = ""
+     untracked string globalPhi2LUT_path = ""
+     untracked string globalPhi3LUT_path = ""
+     untracked string globalPhi4LUT_path = ""
+     untracked string globalPhi5LUT_path = ""
+     untracked string globalEta1LUT_path = ""
+     untracked string globalEta2LUT_path = ""
+     untracked string globalEta3LUT_path = ""
+     untracked string globalEta4LUT_path = ""
+     untracked string globalEta5LUT_path = ""
+}
+

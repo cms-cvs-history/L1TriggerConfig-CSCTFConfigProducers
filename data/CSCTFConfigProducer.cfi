@@ -1,4 +1,4 @@
-es_module = CSCTFConfigProducer {
+es_module l1CSCTFConfig = CSCTFConfigProducer {
      untracked string ptLUT_path = ""
      untracked string dt1LUT_path = ""
      untracked string dt2LUT_path = ""

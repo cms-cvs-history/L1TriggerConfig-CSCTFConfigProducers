@@ -3,4 +3,5 @@ include "L1TriggerConfig/CSCTFConfigProducers/data/L1MuCSCDTLutRcdSrc.cfi"
 include "L1TriggerConfig/CSCTFConfigProducers/data/L1MuCSCPtLutRcdSrc.cfi"
 include "L1TriggerConfig/CSCTFConfigProducers/data/L1MuCSCLocalPhiLutRcdSrc.cfi"
 include "L1TriggerConfig/CSCTFConfigProducers/data/L1MuCSCGlobalLutsRcdSrc.cfi"
+include "L1TriggerConfig/CSCTFConfigProducers/data/L1MuCSCTFConfigurationRcdSrc.cfi"
 

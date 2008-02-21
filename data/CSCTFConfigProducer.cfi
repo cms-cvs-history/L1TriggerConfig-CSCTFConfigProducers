@@ -40,6 +40,10 @@ es_module l1CSCTFConfig = CSCTFConfigProducer {
           "DAT_ETA SP MA 0x4    # EtaWin[2] = 4",
           "DAT_ETA SP MA 0x4    # EtaWin[3] = 4",
           "DAT_ETA SP MA 0x4    # EtaWin[4] = 4",
-          "DAT_ETA SP MA 0x4    # EtaWin[5] = 4"
+          "DAT_ETA SP MA 0x4    # EtaWin[5] = 4",
+          "DAT_ETA SP MA 0x2    # mindphip     = 2",
+          "DAT_ETA SP MA 0x4    # mindeta_accp = 4",
+          "DAT_ETA SP MA 0x10   # maxdeta_accp = 16",
+          "DAT_ETA SP MA 0x80   # maxdphi_accp = 128"
      }
 }

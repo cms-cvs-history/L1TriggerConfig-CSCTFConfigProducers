@@ -17,7 +17,7 @@ es_module l1CSCTFConfig = CSCTFConfigProducer {
           "CSR_REQ SP MA 0x801F # Triggering on singles and running the core",
           "DAT_FTR SP MA 0xFF   # Charge Quality and Rank of fake track, produced from singles",
           "CSR_SFC SP MA 0x1000 # Output muon pT to spy on",
-          "CSR_SCC SP MA 0x2132 # Core settings (i.e. [0:1] BXA_depth=2, [4:5] Q=3,4, [8] MB, [13:12] Pretrigger=2)",
+          "CSR_SCC SP MA 0x1    # Core settings (i.e. BXA on, ... )",
           "CNT_ETA SP MA 0x0    # Reset ETA counter to set EtaMin, EtaMax, and EtaWin",
           "DAT_ETA SP MA 0x16   # EtaMin[0] = 22",
           "DAT_ETA SP MA 0x16   # EtaMin[1] = 22",

@@ -1,6 +1,0 @@
-es_source L1MuCSCLocalPhiLutRcdSrc = EmptyESSource {
-    string recordName = "L1MuCSCLocalPhiLutRcd"
-    vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = true
-}
-

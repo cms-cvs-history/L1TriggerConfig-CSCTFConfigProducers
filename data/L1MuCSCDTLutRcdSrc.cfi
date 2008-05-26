@@ -1,5 +1,0 @@
-es_source L1MuCSCDTLutRcdSrc = EmptyESSource {
-    string recordName = "L1MuCSCDTLutRcd"
-    vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = true
-}

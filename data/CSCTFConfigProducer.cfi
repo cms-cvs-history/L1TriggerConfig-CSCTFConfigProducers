@@ -1,23 +1,9 @@
 es_module l1CSCTFConfig = CSCTFConfigProducer {
-     untracked string ptLUT_path = ""
-     untracked string dt1LUT_path = ""
-     untracked string dt2LUT_path = ""
-     untracked string localPhiLUT_path = ""
-     untracked string globalPhi1LUT_path = ""
-     untracked string globalPhi2LUT_path = ""
-     untracked string globalPhi3LUT_path = ""
-     untracked string globalPhi4LUT_path = ""
-     untracked string globalPhi5LUT_path = ""
-     untracked string globalEta1LUT_path = ""
-     untracked string globalEta2LUT_path = ""
-     untracked string globalEta3LUT_path = ""
-     untracked string globalEta4LUT_path = ""
-     untracked string globalEta5LUT_path = ""
-     vstring registers  = {
+     vstring registersSP1  = {
           "CSR_REQ SP MA 0x801F # Triggering on singles and running the core",
           "DAT_FTR SP MA 0xFF   # Charge Quality and Rank of fake track, produced from singles",
           "CSR_SFC SP MA 0x1000 # Output muon pT to spy on",
-          "CSR_SCC SP MA 0x2030 # Core settings (i.e. [0:1] BXA_depth=0, [4:5] Q=3,4, [8] MB, [13:12] Pretrigger=2)",
+          "CSR_SCC SP MA 0x0230 # Core settings (i.e. [0:1] BXA_depth=0, [4:5] Q=1,2, [7] MB, [8:9] Pretrigger=2)",
           "CNT_ETA SP MA 0x0    # Reset ETA counter to set EtaMin, EtaMax, and EtaWin",
           "DAT_ETA SP MA 0x0    # EtaMin[0] = 0",
           "DAT_ETA SP MA 0x0    # EtaMin[1] = 0",
@@ -46,4 +32,17 @@ es_module l1CSCTFConfig = CSCTFConfigProducer {
           "DAT_ETA SP MA 0x10   # maxdeta_accp = 16",
           "DAT_ETA SP MA 0x40   # maxdphi_accp = 128"
      }
+     vstring registersSP2  = registersSP1;
+     vstring registersSP3  = registersSP1;
+     vstring registersSP4  = registersSP1;
+     vstring registersSP5  = registersSP1;
+     vstring registersSP6  = registersSP1;
+     vstring registersSP7  = registersSP1;
+     vstring registersSP8  = registersSP1;
+     vstring registersSP9  = registersSP1;
+     vstring registersSP10 = registersSP1;
+     vstring registersSP11 = registersSP1;
+     vstring registersSP12 = registersSP1;
+
+     vdouble alignment  = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 }
